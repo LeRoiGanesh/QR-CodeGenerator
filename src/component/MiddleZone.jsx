@@ -74,7 +74,7 @@ const MiddleZone = ({ onGenerate }) => {
       }
     }
     const id = crypto.randomUUID();
-    const domain = "https://4e14b9f09ae3.ngrok-free.app";
+    const domain = "https://qr-code-generator-nine-mu.vercel.app/";
     const qrPayload = {
       id,
       links: links.filter(l => l.url),
@@ -244,7 +244,7 @@ const MiddleZone = ({ onGenerate }) => {
                   }
                 }
                 const id = crypto.randomUUID();
-                const domain = "https://4e14b9f09ae3.ngrok-free.app";
+                const domain = "https://qr-code-generator-nine-mu.vercel.app/";
                 const qrPayload = {
                   id,
                   links: links.filter(l => l.url),
